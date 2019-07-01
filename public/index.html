@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>Country</title>
+</head>
+
+<body>
+    <header class="myHead">
+        <img class="main-logo" src="https://here.intersolute.de/images/icons/0003-layer-5.png" alt='logo'>
+        <h1 class="title">Country AutoComplete</h1>
+    </header>
+    <main>
+        <div class="entryContainer">
+            <label class="lblCount"> Enetr Country :
+                <br>
+                <br>
+                <input type="text" name="country" class="entryContainer--input" list="datalist" placeholder="Type The Country Name ..">
+            </label>
+            <datalist id="datalist">
+            </datalist>
+        </div>
+        <br>
+        <hr class="horizntalLine">
+        <br>
+        <div class="counteryResult">
+            <h1 class="name"></h1>
+            <br>
+            <hr class="horizntalLine">
+            <br>
+            <h3 class="capital"></h3>
+            <br>
+            <h3 class="currncy"></h3>
+            <br>
+            <h3 class="pop"></h3>
+        </div>
+    </main>
+    <script src="./public/js/index.js"></script>
+    <script src="./public/js/dom.js"></script>
+</body>
+
+</html>
